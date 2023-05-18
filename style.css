@@ -1,0 +1,293 @@
+/*<--------- Todo conteudo inicio ---->*/
+*
+{
+
+}
+body
+{
+    background: url(Imagens/BackGround.jpg) no-repeat;
+    background-attachment: fixed;
+
+    overflow-x: hidden;
+}
+
+/*<--------- Todo conteudo Fim -------->*/
+
+
+
+/*<-------- Cabeçario inicio --------->*/
+
+ /*Logo inicio*/
+.navbar-brand
+{
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 30px;
+    line-height: inherit;
+    white-space: nowrap;
+    color: black;
+    font-family: market deco;
+}
+
+.navbar-brand:hover
+{
+   color:white;
+}
+ /*Logo fim*/
+
+/*Navbar incio*/
+.margin-navbar
+{
+    margin: 0px auto;
+}
+
+.navbar-dark .navbar-nav .nav-link 
+{
+    color:black;
+}
+
+
+
+.navbar-dark .navbar-nav .nav-link:hover
+{
+    color:white;
+}
+
+/*<---- Seleção do menu inicio ----->*/
+
+.navbar-dark .navbar-nav #Home 
+{
+    background: darkred;
+    border-radius: 5px;
+    color: white;
+}
+
+.navbar-dark .navbar-nav #Jogos 
+{
+    background: darkred;
+    border-radius: 5px;
+    color: white;
+}
+
+.navbar-dark .navbar-nav #Celulares
+{
+    background: darkred;
+    border-radius: 5px;
+    color: white;
+}
+
+.navbar-dark .navbar-nav #Informatica
+{
+    background: darkred;
+    border-radius: 5px;
+    color: white;
+}
+
+.navbar-dark .navbar-nav #Eletronicos
+{
+    background: darkred;
+    border-radius: 5px;
+    color: white;
+}
+
+/*<---- Seleção do menu fim ----->*/
+
+/*Navbar fim*/
+
+/*<-------- Cabeçario Fim --------->*/
+
+
+
+/*<-------Container principal inicio ------>*/
+.main-container
+{
+    margin-top: 400px;
+    background: lightgray;
+}
+
+.container_move
+{
+    position: relative;
+    top: -50px;
+}
+
+.main-section
+{
+    height: 400px;
+}
+
+.clear 
+{
+    clear: both;
+}
+
+/*<-------Container principal fim --------->*/
+
+
+
+
+/*<----- Media Query Incio ------>*/
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 400px) 
+{ 
+     body
+    {
+        background: url(Imagens/BackGround4.jpg) no-repeat;
+        background-size: 100%;
+        background-attachment: fixed;
+
+    }
+
+      .card-text
+    {
+        font-size: 10px;
+    }
+         .card-title
+    {
+        font-size: 12px;
+    }
+
+     .card-body
+    {
+        overflow-y: scroll;
+        overflow-x: hidden;
+        height: 200px;
+    }
+     .card-button
+    {
+         font-size: 10px;
+    }
+       .card-header-text 
+    {
+        font-size: 12px;
+    }
+
+     .main-secao
+    {
+         font-size: 18px;
+    }
+
+}
+
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) 
+{
+     body
+    {
+        background: url(Imagens/BackGround3.jpg) no-repeat;
+        background-size: 100%;
+        background-attachment: fixed;
+
+    }
+
+    
+    .card-text
+    {
+        font-size: 10px;
+    }
+    .card-title
+    {
+        font-size: 13px;
+    }
+    .card-body
+    {
+        overflow-y: scroll;
+        overflow-x: hidden;
+        height: 200px;
+    }
+    .card-button
+    {
+         font-size: 10px;
+    }
+       .card-header-text
+    {
+        font-size: 13px;
+    }
+
+     .main-secao
+    {
+         font-size: 20px;
+    }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) 
+{
+     body
+    {
+        background: url(Imagens/BackGround2.jpg) no-repeat;
+        background-size: 100%;
+        background-attachment: fixed;
+
+    }
+
+    .card-text
+    {
+        font-size: 12px;
+    }
+     .card-title
+    {
+        font-size: 15px;
+    }
+     .card-body
+    {
+        overflow-y: hidden;
+        overflow-x: hidden;
+        height: 100%;
+    }
+     .card-button
+    {
+         font-size: 12px;
+    }
+      .card-header-text
+    {
+        font-size: 15px;
+    }
+
+     .main-secao
+    {
+         font-size: 25px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) 
+{
+    body
+    {
+        background: url(Imagens/BackGround1.jpg) no-repeat;
+        background-size: 100%;
+        background-attachment: fixed;
+
+    }
+
+     .card-text 
+    {
+        font-size: 15px;
+    }
+    .card-title
+    {
+        font-size: 20px;
+    }
+     .card-button
+    {
+         font-size: 15px;
+    }
+    .card-header-text
+    {
+        font-size: 20px;
+    }
+
+    .main-secao
+    {
+         font-size: 30px;
+    }
+
+}
+
+/*<----- Media Query Fim ------>*/
